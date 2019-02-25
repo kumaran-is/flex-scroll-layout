@@ -83,13 +83,13 @@ footer {
 
 /* middle section of main content, width is 5 times greater than 2 side sections - aside & nave sections*/
 .content {
-  flex: 5;
-  overflow: auto;
+  flex: 5 1 auto;
+  overflow: auto; /* Make main content of middle section scrollable */
 }
 
 /* side sections of main content - aside & nave sections*/
 aside, nav {
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 nav {
